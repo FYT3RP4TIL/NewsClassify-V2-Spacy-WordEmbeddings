@@ -1,4 +1,4 @@
-# 📰 News Category Classifier
+# 📰 NewsClassify-V2-Spacy-WordEmbeddings
 
 ## 📊 Project Overview
 
