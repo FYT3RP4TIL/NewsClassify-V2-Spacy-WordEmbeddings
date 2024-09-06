@@ -211,7 +211,11 @@ Results:
 weighted avg       0.87      0.87      0.87      2263
 ```
 
-### 5. Gradient Boosting Classifier 🏆
+### 5. Gradient Boosting Classifier
+
+## 🥇 Best Performing Model
+
+The **Gradient Boosting Classifier** achieved the highest overall performance with an accuracy of 89% and balanced precision, recall, and F1-scores across all categories.
 
 ```python
 from sklearn.ensemble import GradientBoostingClassifier
@@ -236,19 +240,7 @@ Results:
 weighted avg       0.89      0.89      0.89      2263
 ```
 
-## 🥇 Best Performing Model
 
-The **Gradient Boosting Classifier** achieved the highest overall performance with an accuracy of 89% and balanced precision, recall, and F1-scores across all categories.
-
-```python
-from sklearn.ensemble import GradientBoostingClassifier
-
-clf = GradientBoostingClassifier()
-clf.fit(X_train_2d, y_train)
-y_pred = clf.predict(X_test_2d)
-
-print(classification_report(y_test, y_pred))
-```
 
 ## 🚀 Future Improvements
 
